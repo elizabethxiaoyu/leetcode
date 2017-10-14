@@ -9,7 +9,7 @@ public class P119PascalsTriangleII {
 
 	public List<Integer> getRow(int rowIndex) {
 		List<Integer> result = new ArrayList<Integer>();
-		if (rowIndex <= 0)
+		if (rowIndex < 0)
 			return result;
 
 		for (int i = 0; i <= rowIndex; i++) {
